@@ -109,3 +109,113 @@ var items = [
 			{id: 8, name: 'Default2'},
 			{id: 9, name: 'Default3'}];
 
+var posts = [
+	{
+		data: 'My First Post',
+		user: {
+			id: '1',
+			name: 'UserName1'
+		},
+		comments : [
+			{
+				message: 'Comment1',
+				user : {
+					id: '1',
+					name:'Ali'
+				}
+			},
+			{
+				message: 'Comment1',
+				user : {
+					id: '1',
+					name:'Ali'
+				}
+			}
+		],
+		likes : [
+			{
+				user : {
+					id: '1',
+					name:'Ali'
+				}
+			},
+			{
+				user : {
+					id: '2',
+					name:'Chetan'
+				}
+			}
+		]
+	},
+	{
+		data: 'My Second Post',
+		user: {
+			id: '2',
+			name: 'UserName2'
+		},
+		comments : [
+			{
+				message: 'Comment1',
+				user : {
+					id: '1',
+					name:'Ali'
+				}
+			},
+			{
+				message: 'Comment1',
+				user : {
+					id: '1',
+					name:'Ali'
+				}
+			}
+		],
+		likes : [
+			{
+				user : {
+					id: '1',
+					name:'Ali'
+				}
+			},
+			{
+				user : {
+					id: '2',
+					name:'Chetan'
+				}
+			}
+		]
+	},
+	{
+		data: 'My Third Post',
+		user: {
+			id: '3',
+			name: 'UserName3'
+		},
+		comments : [
+			{
+				message: 'Comment1',
+				user : {
+					id: '1',
+					name:'Ali'
+				}
+			},
+			{
+				message: 'Comment1',
+				user : {
+					id: '1',
+					name:'Ali'
+				}
+			}
+		],
+		likes : [{
+			user : {
+						id: '1',
+						name:'Ali'
+					}
+		},{
+			user : {
+						id: '2',
+						name:'Chetan'
+			}
+		}]
+	}
+	];

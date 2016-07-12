@@ -1,5 +1,9 @@
-<div style="width: 100%; padding-left: 30%; padding-right: 30%;">
-  <div style="padding-top:50px">
-    <div><a href="#" ng-click="goToLoginPage();"> Login</a></div>
-  </div>  
+<div class="container">
+  <div ng-repeat='post in posts'>
+  	{{post.user.name}} :  {{post.data}}
+  	<div>{{post.likes.length}} Likes</div>
+  	<div ng-repeat="comment in post.comments">
+  		{{comment.user.name}} - {{comment.message}}
+  	</div>
+  </div>
 </div>
