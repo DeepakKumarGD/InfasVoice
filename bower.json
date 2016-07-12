@@ -1,0 +1,20 @@
+{
+  "name": "infasvoice",
+  "description": "InfasVoice",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular": "1.4.0",
+    "angular-ui-router": "^0.3.1",
+    "angular-resource": "^1.4.0",
+    "angular-translate": "^2.11.0",
+    "angular-translate-loader-partial": "^2.11.0",
+    "oclazyload": "^1.0.9",
+    "bootstrap": "^3.3.6",
+    "angular-animate": "^1.4.0",
+    "angular-cookies": "^1.4.0",
+    "angular-resource": "^1.4.0",
+    "angular-route": "^1.4.0",
+    "angular-sanitize": "^1.4.0",
+    "angular-touch": "^1.4.0"
+  }
+}
