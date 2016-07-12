@@ -348,3 +348,8 @@ body {
 		padding: 15px;
 	}
 }
+
+.thumbnail {
+width: 300px; 
+    height: 300px;
+}
