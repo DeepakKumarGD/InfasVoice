@@ -1,0 +1,27 @@
+{
+	"fundamental":{
+		"incomeStatistics":{
+			"label":{
+				"year": "Year",
+				"revenue": "Revenue",
+				"gross_profit": "Gross Profit",
+				"cd_data": "CD/TDA",
+				"operating_income": "Operating Income",
+				"net_income": "Net Income",
+				"diluted_eps": "Diluted EPS",
+				"gross_margin": "Gross Margin",
+				"tda_margin": "TDA Margin",
+				"operating_margin": "Operating Margin",
+				"net_margin": "Net Margin",
+				"yy_revenue_growth": "Y/Y Rev Growth",
+				"yy_EPS_growth": "Y/Y EPS Growth",
+				"snapshot": "Snapshot",
+				"fundamentals": "Fundamentals",
+				"comparision": "Comparision",
+				"valuations": "Valuations",
+				"financials": "Financials",
+				"key_stats": "Key Stats"
+			}
+		}
+	}
+}

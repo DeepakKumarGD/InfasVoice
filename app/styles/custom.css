@@ -1,0 +1,350 @@
+
+@font-face {
+  font-family: 'Gotham Book';
+  src: url('fonts/gotham-book/gotham-book.eot');
+  src: url('fonts/gotham-book/gotham-book.eot?#iefix') format('embedded-opentype'),
+       url('fonts/gotham-book/gotham-book.woff2') format('woff2'),
+       url('fonts/gotham-book/gotham-book.woff') format('woff'),
+       url('fonts/gotham-book/gotham-book.ttf')  format('truetype'),
+       url('fonts/gotham-book/gotham-book.svg#svgFontName') format('svg');
+}
+
+@font-face {
+  font-family: 'Gotham Bold';
+  src: url('fonts/gotham-bold/gotham-bold.eot');
+  src: url('fonts/gotham-bold/gotham-bold.eot?#iefix') format('embedded-opentype'),
+       url('fonts/gotham-bold/gotham-bold.woff2') format('woff2'),
+       url('fonts/gotham-bold/gotham-bold.woff') format('woff'),
+       url('fonts/gotham-bold/gotham-bold.ttf')  format('truetype'),
+       url('fonts/gotham-bold/gotham-bold.svg#svgFontName') format('svg');
+}
+
+@font-face {
+  font-family: 'Gotham Light';
+  src: url('fonts/gotham-light/gotham-light.eot');
+  src: url('fonts/gotham-light/gotham-light.eot?#iefix') format('embedded-opentype'),
+       url('fonts/gotham-light/gotham-light.woff2') format('woff2'),
+       url('fonts/gotham-light/gotham-light.woff') format('woff'),
+       url('fonts/gotham-light/gotham-light.ttf')  format('truetype'),
+       url('fonts/gotham-light/gotham-light.svg#svgFontName') format('svg');
+}
+
+@font-face {
+  font-family: 'Gotham Medium';
+  src: url('fonts/gotham-medium/gotham-medium.eot');
+  src: url('fonts/gotham-medium/gotham-medium.eot?#iefix') format('embedded-opentype'),
+       url('fonts/gotham-medium/gotham-medium.woff2') format('woff2'),
+       url('fonts/gotham-medium/gotham-medium.woff') format('woff'),
+       url('fonts/gotham-medium/gotham-medium.ttf')  format('truetype'),
+       url('fonts/gotham-medium/gotham-medium.svg#svgFontName') format('svg');
+}
+
+body {
+	background-color: #eef1f5;
+  font-family: 'Gotham Book', sans-serif, Arial;
+}
+
+.container {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.img-responsive, .img-responsive img {
+	max-width: 100%;
+}
+
+/*		Header Logged 	*/
+
+.header-login {
+	background-color: #fff;
+	box-shadow: 0 0 15px 0 #c2cad8;
+	margin-bottom: 50px;
+	padding: 10px 0;
+}
+
+.header-brand {
+}
+
+.header-search--bar {
+	position: relative;
+	margin-top: 20px;
+	width: 85%;
+}
+
+.header-search--bar .header-search--input {
+	border: none;
+	border-bottom: 1px solid #606161;
+	font-size: 16px;
+	display: inline-block;
+	font-family: 'Gotham Book', sans-serif, Arial;
+	padding-right: 25px;
+	width: 100%;
+}
+
+.header-search--bar .header-search--input:focus {
+	box-shadow: none;
+	outline: none;
+}
+
+.header-search--bar .header-search--icon {
+	display: inline-block;
+	height: 14px;
+	position: absolute;
+	top: 20%;
+	right: 5px;
+	width: 14px;
+}
+
+.header-profile--dropdown .header-profile--img {
+	border-radius: 999px;
+	display: inline-block;
+	height: 42px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  vertical-align: middle;
+	width: 42px;
+}
+
+.header-profile--dropdown {
+	margin-top: 10px;
+	text-align: right;
+}
+
+.header-profile--dropdown .btn-default {
+	border-width: 0;
+	background: none !important;
+	display: inline-block;
+	font-family: "Gotham Medium", sans-serif, Arial;
+	overflow: hidden;
+	padding-right: 25px;
+	position: relative;
+	text-overflow: ellipsis;
+	text-align: right;
+	white-space: nowrap;
+	max-width: 132px;
+}
+
+.header-profile--dropdown .btn-default:hover,
+.header-profile--dropdown .btn-default:focus {
+	background: none;
+	outline: none;
+	box-shadow: none;
+}
+
+.header-profile--dropdown .btn-default .caret {
+	border: none;
+	position: absolute;
+	right: 0;
+	top: 10px;
+	width: 15px;
+}
+
+.header-profile--dropdown .dropdown-menu {
+	margin-top: 20px;
+}
+
+/*		Key Statistics 			*/
+
+.key-statistics--component {
+
+}
+
+.key-statistics--component .panel {
+	border-radius: 10px;
+	box-shadow: 0 0 15px 0 #c2cad8;
+	padding: 10px;
+}
+
+.key-statistics--component .panel-title {
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+.key-statistics--component .panel .panel-lists {
+	list-style: none;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+.key-statistics--component .panel .panel-lists li {
+	border-bottom: 1px solid #ccc;
+	color: #333;
+	font-size: 11px;
+	margin-bottom: 5px;
+}
+
+.key-statistics--component .panel .panel-lists li .text-price {
+	float: right;
+}
+
+.key-statistics--component .panel .panel-lists li .text-info {
+	
+}
+
+/*		Login Component 		*/
+
+.login-module {
+	background: url('images/login-bg.jpg') repeat left top;
+}
+
+.signup-module {
+	background: url('images/registration-bg.jpg') repeat left top;
+}
+
+.login-component {
+	background-color: rgba(238,241,245,0.9);
+	border: 1px solid #d8d8d8;
+	margin: 20px auto;
+	overflow: hidden;
+	padding: 20px 40px;
+	position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+	width: 458px;
+}
+
+.login-component .brand-name {
+	margin: 0 40px 20px;
+}
+
+.login-component .form-control {
+	box-shadow: none;
+	border-color: #fff;
+	margin-bottom: 22px;
+}
+
+.login-component .form-group {
+	position: relative;
+}
+
+.login-component .form-error {
+	display: none;
+	background-color: #FFBA96;
+	border-radius: 2px;
+	margin-bottom: 20px;
+	padding: 6px 10px;
+}
+
+.login-component .form-valid {
+	display: none;
+	background-color: #CBF7BA;
+	border-radius: 2px;
+	margin-bottom: 20px;
+	padding: 6px 10px;
+}
+
+.login-component .form-control:focus {
+	border: 1px solid #00a1f1;
+}
+
+.login-component .btn-login {
+	border: 1px solid transparent;
+	background-color: #00a1f1;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.login-component .btn-login:hover{
+  background-color:#fff;
+  border: 1px solid #0784c2;
+  color:#000;
+}
+
+.login-component .login-component--links a {
+	color: #000;
+}
+
+.login-component .forgot-password-cta {
+	float: left;
+}
+
+.login-component .return-login-cta {
+	float: right;
+}
+
+.login-component .join-now-cta {
+	float: right;
+}
+
+.login-component--terms {
+	color: #606161;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+
+.login-component--terms a {
+	color: #000;
+}
+
+.btn-signup-cancel {
+	background-color: #0784c2;
+	font-size: 16px;
+	color: #fff;
+	border: none;
+	float: left;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	width: 50%;
+}
+
+.btn-signup-submit {
+	background-color: #00a1f1;
+	font-size: 16px;
+	color: #fff;
+	border: none;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	float: left;
+	width: 50%;
+}
+
+.btn-login-cta {
+	border: 1px solid transparent;
+	box-shadow: none;
+	padding: 12px;
+}
+
+.btn-login-cta:hover{
+  background-color:#fff;
+  border: 1px solid #0784c2;
+  color:#000;
+}
+
+/*		Media queries 		*/
+
+@media screen and (min-width: 992px) {
+	.container {
+		width: 1180px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+}
+
+@media screen and (max-width: 768px) {
+	.login-component {
+		padding: 20px;
+		width: 310px;
+	}
+
+	.login-component .login-component--links a {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.login-component {
+		padding: 15px;
+	}
+}

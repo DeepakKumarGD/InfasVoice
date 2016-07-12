@@ -1,0 +1,39 @@
+<div class="login-component">
+	<div class="brand-name">
+		<a href="javascript:;" title="Vistalytics"><img class="img-responsive" src="images/logo.png" alt=""></a>
+	</div>
+
+	<form class="login-form" ng-submit="reigisterUser()">
+
+		<!-- 	Add '.show' class name to display the error msg		 -->
+		<div class="form-error show">Error here</div>
+
+		<div class="form-group">
+			<input class="form-control" type="text" name="signupFirstname" value="" placeholder="Firstname">
+		</div>
+
+		<div class="form-group">
+			<input class="form-control" type="text" name="signupLastname" value="" placeholder="Lastname">
+		</div>
+
+		<div class="form-group">
+			<input class="form-control" type="email" name="signupEmail" value="" placeholder="Email address">
+		</div>
+
+		<div class="form-group">
+			<input class="form-control" type="password" name="signuipPwd" value="" placeholder="Password">
+		</div>
+
+		<div class="form-group">
+			<input class="form-control" type="password" name="signuipConfirmPwd" value="" placeholder="Confirm Password">
+		</div>
+
+		<p class="login-component--terms">
+			By clicking Join now, you agree to Vistalytics <a href="javascript:;">User Agreement</a>, <a href="javascript:;">Privacy Policy</a> and <a href="javascript:;">Cookie Policy</a>.
+		</p>
+		
+		<button class="btn btn-signup-cancel btn-login-cta" ng-click="redirectToLogin()"><span>Cancel</span></button>
+		<input type="submit" class="btn btn-signup-submit btn-login-cta" value="Submit">
+
+	</form>
+</div>

@@ -1,0 +1,10 @@
+{
+	"login":{
+		"forgot_password": "Forgot Password?",
+		"not_a_member": "Not a member? Join now"
+	},
+	"forgot_password":{
+		"return_to_login": "Return to Log In",
+		"submit": "Submit"
+	}
+}
